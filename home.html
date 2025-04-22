@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Website - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004d7a, #008793, #00bf72, #a8eb12);
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 2rem auto;
+    }
+
+    .box {
+      background: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      color: #00bf72;
+    }
+
+    .box h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background: #004d7a;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Professional Website</h1>
+    <p>Explore my journey and achievements.</p>
+  </header>
+
+  <div class="container">
+    <a href="about.html" class="box">
+      <h2>About</h2>
+    </a>
+    <a href="education.html" class="box">
+      <h2>Education</h2>
+    </a>
+    <a href="experience.html" class="box">
+      <h2>Experience</h2>
+    </a>
+    <a href="skills.html" class="box">
+      <h2>Skills</h2>
+    </a>
+    <a href="projects.html" class="box">
+      <h2>Projects</h2>
+    </a>
+    <a href="certifications.html" class="box">
+      <h2>Certifications</h2>
+    </a>
+    <a href="testimonials.html" class="box">
+      <h2>Testimonials</h2>
+    </a>
+    <a href="contact.html" class="box">
+      <h2>Contact</h2>
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; MY ONLINE CV .</p>
+  </footer>
+</body>
+</html>
