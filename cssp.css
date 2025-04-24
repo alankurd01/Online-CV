@@ -2,8 +2,8 @@
   position: absolute;
   top: 10px; /* Adjust spacing from the top */
   left: 10px; /* Adjust spacing from the right */
-  width: 50px; /* Set the desired width */
-  height: 50px; /* Set the desired height */
-  border-radius: 50%; /* Makes it circular (optional) */
+  width: 70px; /* Set the desired width */
+  height: 70px; /* Set the desired height */
+  border-radius: 70%; /* Makes it circular (optional) */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
