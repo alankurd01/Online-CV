@@ -1,6 +1,3 @@
-body {
-  background-image: url('images/image.png'); /* Replace with your actual image path */
-  background-size: cover; /* Scales image to cover the whole page */
-  background-repeat: no-repeat;
-  background-position: center center;
+.box {
+  background-color: #f0c674;
 }
