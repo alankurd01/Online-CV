@@ -1,0 +1,6 @@
+body {
+  background-image: url('your-image.jpg'); /* Replace with your actual image path */
+  background-size: cover; /* Scales image to cover the whole page */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
